@@ -1,0 +1,21 @@
+escape ^Tt
+term xterm
+termcap xterm hs@
+terminfo xterm hs@
+defscrollback 100000
+startup_message off
+vbell off
+bind h focus left
+bind j focus down
+bind k focus up
+bind l focus right
+bind n layout new
+bind \t layout next
+bind ^c layout remove
+bind ^l redisplay
+bind x
+bind ^x
+bind s
+bind ^s
+layout new
+shell /bin/bash
