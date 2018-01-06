@@ -1,11 +1,12 @@
+set tabstop=4
 set autoindent
 set expandtab
+set shiftwidth=4
 set fileformats=unix,mac,dos
 set ignorecase
 set smartcase
 set wrapscan
 set nolist
-set tabstop=4
 set showmatch
 syntax on
 set hlsearch
