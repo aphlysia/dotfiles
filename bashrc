@@ -11,6 +11,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias less='less -i'
+alias vi='vim'
 alias irb='irb --noecho'
 alias ssh='ssh -o ServerAliveInterval=60'
 alias ccolumn="sed \"s/,/,|/g\" | column -ts ,"
