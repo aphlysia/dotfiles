@@ -21,3 +21,5 @@ nmap <Esc><Esc> :nohlsearch<CR><ESC>
 set ambiwidth=double
 
 nnoremap / /\v
+
+set diffopt+=internal,algorithm:patience
