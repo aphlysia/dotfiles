@@ -25,3 +25,5 @@ export HISTSIZE=10000
 export HISTTIMEFORMAT="%Y%m%d %T "
 
 export LIBRARY_PATH=`echo $LIBRARY_PATH | sed "s/:$//"` # 一番後ろに : があると gcc がエラーはくことがあるので消す
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
