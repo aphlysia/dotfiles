@@ -18,4 +18,4 @@ bind ^x
 bind s
 bind ^s
 layout new
-shell /bin/bash
+shell $SHELL
