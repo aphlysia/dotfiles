@@ -16,6 +16,7 @@ set statusline=%F%=%m%r%h%w-%{&ff}-%Y-%l,%v(%p%%)
 set hid
 set lazyredraw
 set backspace=indent,eol,start
+set nofixeol
 
 nmap <Esc><Esc> :nohlsearch<CR><ESC>
 
