@@ -1,4 +1,9 @@
-alias ls='ls -G'
+if test (uname) = "Darwin"
+    alias ls='ls -G'
+else
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+end
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
