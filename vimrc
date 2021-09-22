@@ -17,6 +17,7 @@ set hid
 set lazyredraw
 set backspace=indent,eol,start
 set nofixeol
+set incsearch
 
 nmap <Esc><Esc> :nohlsearch<CR><ESC>
 
