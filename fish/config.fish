@@ -15,5 +15,9 @@ alias ccolumn="sed \"s/,/,|/g\" | column -ts ,"
 alias tcolumn="sed \"s/\\t/\\t|/g\" | column -t"
 
 set -x PAGER less
-set -x PATH $HOME/.local/bin $HOME/.cargo/bin $PATH
+if test (uname) = "Darwin"
+    set -x PATH /opt/homebrew/bin $HOME/.local/bin $HOME/.cargo/bin $PATH
+else
+    set -x PATH $HOME/.local/bin $HOME/.cargo/bin $PATH
+end
 set -x LC_ALL ja_JP.UTF-8
